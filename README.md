@@ -14,7 +14,7 @@ This project implements a custom cricket-themed programming language called **Cr
 
 ## Run Instructions
 ```bash
-flex crick.l
-gcc lex.yy.c -lfl -o crick
-./crick < code.txt
+flex scanner.l
+gcc lex.yy.c -lfl -o scanner
+./scanner < code.txt
 
