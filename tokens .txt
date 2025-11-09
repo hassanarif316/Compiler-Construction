@@ -1,0 +1,81 @@
+Line no.1: Comment: $sample code for checking if a player had scored century?
+Line no.2: Keyword: player
+Line no.2: Identifier token: name
+Line no.2: Operator: =
+Line no.2: String: "Babar"
+Line no.2: Terminator: ..
+Line no.3: Keyword: player
+Line no.3: Identifier token: name2
+Line no.3: Operator: =
+Line no.3: String: "Rizwan"
+Line no.3: Terminator: ..
+Line no.4: Keyword: run
+Line no.4: Identifier token: score
+Line no.4: Operator: =
+Line no.4: Integer: 100
+Line no.4: Terminator: ..
+Line no.5: Keyword: run
+Line no.5: Identifier token: score2
+Line no.5: Operator: =
+Line no.5: Integer: 50
+Line no.5: Terminator: ..
+Line no.6: Keyword: run
+Line no.6: Identifier token: total
+Line no.6: Operator: =
+Line no.6: Identifier token: score
+Line no.6: Operator: +
+Line no.6: Identifier token: score1
+Line no.6: Terminator: ..
+Line no.7: Keyword: mic
+Line no.7: Operator: ->
+Line no.7: String: "total score is now 150"
+Line no.7: Terminator: ..
+Line no.8: Keyword: appeal
+Line no.8: Punctuation token: (
+Line no.8: Identifier token: score
+Line no.8: Operator: >=
+Line no.8: Integer: 100
+Line no.8: Punctuation token: )
+Line no.8: Punctuation token: {
+Line no.9: Keyword: mic
+Line no.9: Operator: ->
+Line no.9: String: "its a century"
+Line no.9: Terminator: ..
+Line no.10: Punctuation token: }
+Line no.10: Keyword: review
+Line no.10: Punctuation token: {
+Line no.11: Keyword: mic
+Line no.11: Operator: ->
+Line no.11: String: "missed a century"
+Line no.11: Terminator: ..
+Line no.12: Punctuation token: }
+Line no.13: Keyword: toss
+Line no.13: Identifier token: check
+Line no.13: Operator: =
+Line no.13: Integer: 0
+Line no.13: Terminator: ..
+Line no.14: Keyword: appeal
+Line no.14: Punctuation token: (
+Line no.14: Operator: ^
+Line no.14: Identifier token: check
+Line no.14: Punctuation token: )
+Line no.14: Punctuation token: {
+Line no.15: Keyword: mic
+Line no.15: Operator: ->
+Line no.15: String: "its a head & won the toss"
+Line no.15: Terminator: ..
+Line no.16: Punctuation token: }
+Line no.16: Keyword: review
+Line no.16: Punctuation token: {
+Line no.17: Keyword: mic
+Line no.17: Operator: ->
+Line no.17: String: "its a tail & loss the toss"
+Line no.17: Terminator: ..
+Line no.18: Punctuation token: }
+Line no.19: Keyword: run
+Line no.19: Error: w0 (Invalid Identifier: contains 0)
+Line no.19: Operator: =
+Line no.19: Error: 99 (Invalid Identifier)
+Line no.19: Terminator: ..
+Line no.19: Comment: $handling invalid identifier
+Line no.20: Comment: $byee

@@ -1,0 +1,20 @@
+$sample code for checking if a player had scored century?
+player name="Babar"..
+player name2="Rizwan"..
+run score=100..
+run score2=50..
+run total=score+score1..
+mic->"total score is now 150"..
+appeal(score>=100){
+mic->"its a century"..
+} review{
+mic->"missed a century"..
+}
+toss check=0..
+appeal(^check){
+mic->"its a head & won the toss"..
+} review{
+mic->"its a tail & loss the toss"..
+}
+run w0=99..   $handling invalid identifier
+$byee
