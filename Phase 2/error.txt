@@ -1,4 +1,4 @@
 play{
 run score..
-score=100..
-}
+score=100.
+
