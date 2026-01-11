@@ -1,0 +1,4 @@
+play{
+run score..
+score=100..
+}

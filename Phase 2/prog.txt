@@ -1,0 +1,17 @@
+play{
+run score..
+score=100..
+
+appeal(score^=100){
+  mic->"century missed"..
+}
+review{
+  mic->"Century"..
+}
+
+pavilion 0..
+}
+
+  
+  
+
